@@ -51,7 +51,7 @@ The project involves:
 - nonlinear Cosserat rod modeling
 - establishment of reduced Lagrangian formulation based on virtual work and Lagrangian mechanics
 - construction of strain modal basis adapted to tendon routing
-- fast shape prediction from tendon tension measurements
+- fast shape prediction from tendon tension measurements by avoiding iterative Newton-Raphson solvers
 
 Under the proposed actuated strain basis, the strain field can be directly expressed as:
 
@@ -101,7 +101,7 @@ Potential applications include:
 
 **Prototyping and Fabrication** [3D printing (IdeaMaker), mechanical assembly, and prototype integration]
 
-**Experimental Validation** – sensor integration (), tendon actuation systems, and experimental 
+**Experimental Validation** – sensor integration (tension sensor, electromagnetic pose sensor, cameras), tendon actuation systems, and experimental 
 
 ## Related Publications
 

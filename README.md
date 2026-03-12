@@ -31,7 +31,10 @@ Single-segment tendon-actuated continuum robot prototype used for experiments:
 ![Robot](media/robot_photo_2.jpg)
 
 Effector with different routing types:
-![Effector](media/effector_photo.jpg)
+![Effector](media/effector_photo_1.jpg)
+
+Effector with different routing types:
+![Effector](media/effector_photo_2.jpg)
 
 All components of the prototype platform were designed and built during the first year of my PhD.
 
@@ -71,7 +74,7 @@ The proposed modeling and shape prediction method was experimentally validated o
 
 Example of shape prediction results:
 
-![result](media/result1.png)
+![result](media/result_1.png)
 
 ## Applications
 

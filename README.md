@@ -94,7 +94,7 @@ Potential applications include:
 - MATLAB
 - Python (PyCharm IDE)
 - Computer vision (3D calibration / segmentation / image extraction)
-- Continuum robot prototype design & fabrication (3D design : solidworks, 3D printing : idealMaker, perçeuse, soudage, toute choses concerne la mécanique et bricolage etc...)
+- Continuum robot prototype design & fabrication (3D design : solidworks, 3D printing : idealMaker, toutes les techniques qui concerne la mécanique et bricolage (perçeuse, soudage) etc...)
 
 ## Related Publications
 

@@ -53,6 +53,18 @@ The project involves:
 - construction of strain modal basis adapted to tendon routing
 - Achievement of fast shape prediction of tendon-actuated continuum robots
 
+Under the proposed actuated strain basis, the strain field can be directly expressed as:
+
+$$
+\epsilon(X) = \Phi_a(X)T
+$$
+
+The robot configuration is then obtained by integrating the Cosserat kinematics:
+
+$$
+g' = g(\xi_0 + B\epsilon)^\wedge
+$$
+
 ## Experimental Results
 
 The proposed modeling and shape prediction method was experimentally validated on a continuum robot prototype with multiple tendon routing configurations.

@@ -91,10 +91,12 @@ Potential applications include:
 
 ## Technologies Used
 
-- MATLAB
-- Python (PyCharm IDE)
-- Computer vision (3D calibration / segmentation / image extraction)
-- Continuum robot prototype design & fabrication (3D design : solidworks, 3D printing : idealMaker, toutes les techniques qui concerne la mécanique et bricolage (perçeuse, soudage) etc...)
+**MATLAB**
+**Python**
+**Computer vision** (stereo camera calibration, image segmentation)
+**Mechanical Design** [CAD design (SolidWorks)]
+**Prototyping and Fabrication** [3D printing (IdeaMaker), mechanical assembly, and prototype integration]
+**Experimental Validation** – sensor integration (), tendon actuation systems, and experimental 
 
 ## Related Publications
 

@@ -1,8 +1,8 @@
 # Modeling, shape prediction and experimental validation of a tendon-actuated continuum robot.
 
-![PhD](badge)
-![Continuum Robotics](badge)
-![Cosserat Rod](badge)
+![PhD Research](https://img.shields.io/badge/PhD-Research_Project-blue)
+![Field](https://img.shields.io/badge/Field-Continuum_Robotics-green)
+![Model](https://img.shields.io/badge/Model-Cosserat_Rod-orange)
 
 ![Robot](media/robot_photo.jpg)
 
@@ -33,7 +33,7 @@ Single-segment tendon-actuated continuum robot prototype used for experiments:
 Effector with different routing types:
 ![Effector](media/effector_photo.jpg)
 
-All components of the prototype plateform were designed and built during my 1st year of my Ph.D.  
+All components of the prototype platform were designed and built during the first year of my PhD.
 
 ## Demo Video
 
@@ -49,9 +49,9 @@ The backbone deformation is parameterized using strain fields and reduced using 
 The project involves:
 
 - nonlinear Cosserat rod modeling
-- establishment of reduced Lagrangian formulation based on virtual work and Lagragian mechanics
+- establishment of reduced Lagrangian formulation based on virtual work and Lagrangian mechanics
 - construction of strain modal basis adapted to tendon routing
-- Achievement of fast shape prediction of tendon-actuated continuum robots
+- fast shape prediction from tendon tension measurements
 
 Under the proposed actuated strain basis, the strain field can be directly expressed as:
 
@@ -80,26 +80,32 @@ Potential applications include:
 - Minimally invasive surgical robotics
 - Inspection in constrained environments
 - Flexible robotic manipulation
-- aerospace inspection robots
+- Aerospace inspection robots
 
 ## Repository Structure
-Title
-Overview
-Key Contributions
-Prototype Platform
-Mechanical Modeling
-Experimental Results
-Demo Video
-Applications
-Repository Structure
-Publications
-Contact
+
+/model        → Cosserat rod modeling implementation  
+/experiments  → experimental data processing  
+/media        → images and figures used in README  
+/video        → demonstration videos  
+
+## Technologies Used
+
+- MATLAB
+- Python
+- Computer vision (shape reconstruction)
+- Continuum robot prototype design
+- Experimental robotics
 
 ## Related Publications
 
 Z. Zhang, M. T. Chikhaoui, V. Lebastard, F. Boyer  
-Shape Reconstruction of Tendon-Actuated Continuum Robot Using Standard Proprioception  
+**Shape Prediction of Tendon-Actuated Continuum Robot Using Standard Proprioception** 
 IEEE Robotics and Automation Letters (under review)
+
+Z. Zhang  
+**Modeling, Shape Prediction, and Actuation Redundancy Elimination of Tendon-Actuated Continuum Robots**  
+PhD Thesis, IMT Atlantique (2026)
 
 ## Contact
 

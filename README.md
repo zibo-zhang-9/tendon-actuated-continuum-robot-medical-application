@@ -92,10 +92,15 @@ Potential applications include:
 ## Technologies Used
 
 **MATLAB**
+
 **Python**
+
 **Computer vision** (stereo camera calibration, image segmentation)
+
 **Mechanical Design** [CAD design (SolidWorks)]
+
 **Prototyping and Fabrication** [3D printing (IdeaMaker), mechanical assembly, and prototype integration]
+
 **Experimental Validation** – sensor integration (), tendon actuation systems, and experimental 
 
 ## Related Publications

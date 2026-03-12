@@ -1,5 +1,11 @@
 # Modeling, shape prediction and experimental validation of a tendon-actuated continuum robot.
 
+![PhD](badge)
+![Continuum Robotics](badge)
+![Cosserat Rod](badge)
+
+![Robot](media/robot_photo.jpg)
+
 This project presents the modeling, shape prediction, and experimental validation of a tendon-actuated continuum robot developed during my PhD research.
 
 ## Overview

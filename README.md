@@ -49,6 +49,8 @@ The project involves:
 
 ## Experimental Results
 
+The proposed modeling and shape prediction method was experimentally validated on a continuum robot prototype with multiple tendon routing configurations.
+
 Example of shape prediction results:
 
 ![result](media/result1.png)
@@ -58,9 +60,22 @@ Example of shape prediction results:
 Potential applications include:
 
 - Minimally invasive surgical robotics
+- Inspection in constrained environments
 - Flexible robotic manipulation
-- Inspection in constrained industrial environments
-- Exploration in aerospace
+- aerospace inspection robots
+
+## Repository Structure
+Title
+Overview
+Key Contributions
+Prototype Platform
+Mechanical Modeling
+Experimental Results
+Demo Video
+Applications
+Repository Structure
+Publications
+Contact
 
 ## Related Publications
 
@@ -71,6 +86,6 @@ IEEE Robotics and Automation Letters (under review)
 ## Contact
 
 Zibo Zhang  
-PhD in Robotics
+PhD in Robotics (Université Grenoble Alpes / IMT Atlantique)
 
 Email: zibo.zhang@tsm-education.fr / zibo.zhang@univ-grenoble-alpes.fr / zibo.zhang@imt-atlantique.fr

@@ -67,7 +67,7 @@ $$
 
 ## Experimental Results
 
-The proposed modeling and shape prediction method was experimentally validated on a continuum robot prototype with multiple tendon routing configurations.
+The proposed modeling and shape prediction method was experimentally validated on a continuum robot prototype with multiple tendon routing paths.
 
 Example of shape prediction results:
 

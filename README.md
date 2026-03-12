@@ -5,7 +5,10 @@ This project presents the modeling, shape prediction, and experimental validatio
 ## Overview
 
 Continuum robots are promising for minimally invasive surgery and manipulation in constrained environments.  
-This project focuses on mechanical modeling, shape prediction, and actuation redundancy elimination for tendon-actuated continuum robots.
+
+This repository presents the modeling, shape prediction, and experimental validation of a tendon-actuated continuum robot developed during my PhD research in robotics.
+
+The work focuses on physically-based modeling using Cosserat rod theory, reduced-order actuation modeling, and real-time shape prediction from tendon tension measurements.
 
 ## Key Contributions
 

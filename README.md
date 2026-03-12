@@ -1,6 +1,4 @@
-# tendon-actuated-continuum-robot-medical-application
-
-Modeling, shape prediction and experimental validation of a tendon-actuated continuum robot.
+# Modeling, shape prediction and experimental validation of a tendon-actuated continuum robot.
 
 This project presents the modeling, shape prediction, and experimental validation of a tendon-actuated continuum robot developed during my PhD research.
 

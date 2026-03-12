@@ -12,11 +12,12 @@ The work focuses on physically-based modeling using Cosserat rod theory, reduced
 
 ## Key Contributions
 
-- Developed a 3D nonlinear mechanical model based on Cosserat rod theory.
-- Proposed a shape prediction method using adaptive strain modal basis.
-- Developed an SVD-based actuation redundancy elimination framework.
-- Built and optimized a continuum robot prototype platform.
-- Experimentally validated the proposed methods.
+- Developed a **3D nonlinear mechanical model of tendon-actuated continuum robots based on Cosserat rod theory**.
+- Proposed a **shape prediction framework using actuated strain modes (ASM)** that enables direct shape reconstruction from tendon tension measurements.
+- Derived an **analytical construction of an actuation-adapted strain basis** for continuum robots with arbitrary tendon routing.
+- Developed an **SVD-based actuation redundancy elimination method** for tendon-driven systems.
+- Designed and built a **single-segment tendon-actuated continuum robot prototype platform** for experimental validation.
+- Performed **extensive experimental validation for multiple tendon routing paths (parallel, convergent, spiral)**.
 
 ## Prototype Platform
 

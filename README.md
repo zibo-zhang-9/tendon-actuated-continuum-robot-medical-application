@@ -92,10 +92,9 @@ Potential applications include:
 ## Technologies Used
 
 - MATLAB
-- Python
-- Computer vision (shape reconstruction)
-- Continuum robot prototype design
-- Experimental robotics
+- Python (PyCharm IDE)
+- Computer vision (3D calibration / segmentation / image extraction)
+- Continuum robot prototype design & fabrication (3D design : solidworks, 3D printing : idealMaker, perçeuse, soudage, toute choses concerne la mécanique et bricolage etc...)
 
 ## Related Publications
 

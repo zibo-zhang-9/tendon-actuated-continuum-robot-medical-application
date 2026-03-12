@@ -95,13 +95,13 @@ Potential applications include:
 
 **Python**
 
-**Computer vision** (stereo camera calibration, image segmentation)
+**Computer vision**: stereo camera calibration, image segmentation
 
-**Mechanical Design** [CAD design (SolidWorks)]
+**Mechanical Design**: CAD design (SolidWorks)
 
-**Prototyping and Fabrication** [3D printing (IdeaMaker), mechanical assembly, and prototype integration]
+**Prototyping and Fabrication**: 3D printing (IdeaMaker), mechanical assembly, and prototype integration
 
-**Experimental Validation** – sensor integration (tension sensor, electromagnetic pose sensor, cameras), tendon actuation systems, and experimental 
+**Experimental Validation**: tendon tension sensing (load cells), electromagnetic pose tracking (NDI Aurora System), cameras
 
 ## Related Publications
 

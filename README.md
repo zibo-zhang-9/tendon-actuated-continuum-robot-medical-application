@@ -21,11 +21,13 @@ The work focuses on physically-based modeling using Cosserat rod theory, reduced
 
 ## Prototype Platform
 
-A signle-segment tendon-actuated continuum robot:
+Single-segment tendon-actuated continuum robot prototype used for experiments:
 ![Robot](media/robot_photo.jpg)
 
 Effector with different routing types:
 ![Effector](media/effector_photo.jpg)
+
+All components of the prototype plateform were designed and built during my 1st year of my Ph.D.  
 
 ## Demo Video
 
@@ -33,9 +35,17 @@ Demo video of the continuum robot prototype and experiments:
 
 [Watch the demo video](video/demo.mp4)
 
-## Nonlinear modeling
+## Mechanical Modeling
 
-3D nonlinear 
+The robot is modeled using Cosserat rod theory.  
+The backbone deformation is parameterized using strain fields and reduced using modal basis functions.
+
+The project involves:
+
+- nonlinear Cosserat rod modeling
+- establishment of reduced Lagrangian formulation based on virtual work and Lagragian mechanics
+- construction of strain modal basis adapted to tendon routing
+- Achievement of fast shape prediction of tendon-actuated continuum robots
 
 ## Experimental Results
 

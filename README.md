@@ -85,13 +85,6 @@ Potential applications include:
 - Flexible robotic manipulation
 - Aerospace inspection robots
 
-## Repository Structure
-
-/model        → Cosserat rod modeling implementation  
-/experiments  → experimental data processing  
-/media        → images and figures used in README  
-/video        → demonstration videos  
-
 ## Technologies Used
 
 **MATLAB**

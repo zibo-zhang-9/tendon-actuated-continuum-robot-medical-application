@@ -33,9 +33,6 @@ Single-segment tendon-actuated continuum robot prototype used for experiments:
 Effector with different routing types:
 ![Effector](media/effector_photo_1.jpg)
 
-Effector with different routing types:
-![Effector](media/effector_photo_2.jpg)
-
 All components of the prototype platform were designed and built during the first year of my PhD.
 
 ## Demo Video

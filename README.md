@@ -112,6 +112,6 @@ PhD Thesis, IMT Atlantique (2026)
 ## Contact
 
 Zibo Zhang  
-PhD in Robotics (Université Grenoble Alpes / IMT Atlantique)
+PhD in Robotics (IMT Atlantique / Université Grenoble Alpes)
 
 Email: zibo.zhang@tsm-education.fr / zibo.zhang@univ-grenoble-alpes.fr / zibo.zhang@imt-atlantique.fr

@@ -71,7 +71,7 @@ The proposed modeling and shape prediction method was experimentally validated o
 
 Example of shape prediction results:
 
-![result](media/result_1.png)
+![result](media/Cam_A_B_Para_Conv_Spiral_5_Configs.png)
 
 ## Applications
 

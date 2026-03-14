@@ -39,7 +39,7 @@ All components of the prototype platform were designed and built during the firs
 
 Demo video of the continuum robot prototype and experiments:
 
-[Watch the demo video](video/demo.mp4)
+[Watch the demo video](media/Experimental Demonstration of Deformation Behaviors of TACR.mp4)
 
 ## Mechanical Modeling
 

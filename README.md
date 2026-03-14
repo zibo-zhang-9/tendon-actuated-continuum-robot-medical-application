@@ -28,7 +28,7 @@ The work focuses on physically-based modeling using Cosserat rod theory, reduced
 ## Prototype Platform
 
 Single-segment tendon-actuated continuum robot prototype used for experiments:
-![Robot](media/robot_photo_2.jpg)
+![Robot](media/IMG_20240518_163047.jpg)
 
 Effector with different routing types:
 ![Effector](media/effector_photo_1.jpg)

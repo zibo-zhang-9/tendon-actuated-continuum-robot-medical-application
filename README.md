@@ -37,7 +37,11 @@ All components of the prototype platform were designed and built during the firs
 
 ## Demo Video
 
-Demo video of the continuum robot prototype and experiments:
+A Demo GIF of the continuum robot prototype using spiral routing path and experiments:
+
+![demo](media/Deformation_Routage_Helicoidal.gif)
+
+For complete demonstration video, click the following link:
 
 [Watch the demo video](media/Experimental Demonstration of Deformation Behaviors of TACR.mp4)
 

@@ -68,6 +68,8 @@ A Demo GIF of the continuum robot prototype using spiral routing path and experi
 
 For the full experimental demonstration video, click the following link:
 
+https://youtu.be/xxxxx
+
 [Watch the demo video](media/Experimental Demonstration of Deformation Behaviors of TACR.mp4)
 
 ## Experimental Results

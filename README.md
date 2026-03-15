@@ -1,4 +1,4 @@
-# Modeling, shape prediction and experimental validation of a tendon-actuated continuum robot.
+# Modeling and Shape Prediction of Tendon-Actuated Continuum Robots with Experimental Validation
 
 ![PhD Research](https://img.shields.io/badge/PhD-Research_Project-blue)
 ![Field](https://img.shields.io/badge/Field-Continuum_Robotics-green)
@@ -12,16 +12,14 @@ This project presents the modeling, shape prediction, and experimental validatio
 
 Continuum robots are promising for minimally invasive surgery and manipulation in constrained environments.  
 
-This repository presents a part of my Ph.D works concerning the modeling, shape prediction, and experimental validation of a tendon-actuated continuum robot developed during my PhD research in robotics.
-
-The work focuses on physically-based modeling using Cosserat rod theory, reduced-order actuation modeling, and real-time shape prediction from tendon tension measurements.
+This repository presents part of my PhD research on tendon-actuated continuum robots, focusing on physically-based modeling using Cosserat rod theory, reduced-order actuation modeling, real-time shape prediction from tendon tension measurements, and experimental validation.
 
 ## Key Contributions
 
 - Developed a **3D nonlinear mechanical model of tendon-actuated continuum robots based on Cosserat rod theory**.
 - Proposed a **shape prediction framework using actuated strain modes (ASM)** that enables direct shape reconstruction from tendon tension measurements.
 - Derived an **analytical construction of an actuation-adapted strain basis** for continuum robots with arbitrary tendon routing.
-- Developed an **SVD-based actuation redundancy elimination method** for tendon-driven systems.
+- Developed an **SVD-based method for eliminating actuation redundancy** for tendon-actuated continuum robots.
 - Designed and built a **single-segment tendon-actuated continuum robot prototype platform** for experimental validation.
 - Performed **extensive experimental validation for multiple tendon routing paths (parallel, convergent, spiral)**.
 
@@ -35,7 +33,7 @@ The project involves:
 - nonlinear Cosserat rod modeling
 - establishment of reduced Lagrangian formulation based on virtual work and Lagrangian mechanics
 - construction of strain modal basis adapted to tendon routing
-- fast shape prediction from tendon tension measurements by avoiding iterative Newton-Raphson solvers
+- fast shape prediction from tendon tension measurements by avoiding iterative shooting or Newton-Raphson solvers commonly used in Cosserat-rod models.
 
 Under the proposed actuated strain basis, the strain field can be directly expressed as:
 
@@ -65,7 +63,7 @@ A Demo GIF of the continuum robot prototype using spiral routing path and experi
 
 ![demo](media/Deformation_Routage_Helicoidal.gif)
 
-For complete demonstration video, click the following link:
+For the full experimental demonstration video, click the following link:
 
 [Watch the demo video](media/Experimental Demonstration of Deformation Behaviors of TACR.mp4)
 

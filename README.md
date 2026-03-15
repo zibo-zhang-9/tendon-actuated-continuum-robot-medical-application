@@ -62,7 +62,7 @@ Single-segment tendon-actuated continuum robot prototype used for experiments:
 
 ## Demo Video
 
-A Demo GIF of the continuum robot prototype using spiral routing path and experiments:
+A GIF of experimental demonstration of the continuum robot prototype using spiral routing path:
 
 ![demo](media/Deformation_Routage_Helicoidal.gif)
 

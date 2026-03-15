@@ -12,7 +12,7 @@ This project presents the modeling, shape prediction, and experimental validatio
 
 Continuum robots are promising for minimally invasive surgery and manipulation in constrained environments.  
 
-This repository presents the modeling, shape prediction, and experimental validation of a tendon-actuated continuum robot developed during my PhD research in robotics.
+This repository presents a part of my Ph.D works concerning the modeling, shape prediction, and experimental validation of a tendon-actuated continuum robot developed during my PhD research in robotics.
 
 The work focuses on physically-based modeling using Cosserat rod theory, reduced-order actuation modeling, and real-time shape prediction from tendon tension measurements.
 

@@ -4,7 +4,7 @@
 ![Field](https://img.shields.io/badge/Field-Continuum_Robotics-green)
 ![Model](https://img.shields.io/badge/Model-Cosserat_Rod-orange)
 
-![Robot](media/robot_photo_1.jpg)
+![Robot](media/IMG_20240518_163047.jpg)
 
 This project presents the modeling, shape prediction, and experimental validation of a tendon-actuated continuum robot developed during my PhD research.
 
@@ -28,7 +28,7 @@ The work focuses on physically-based modeling using Cosserat rod theory, reduced
 ## Prototype Platform
 
 Single-segment tendon-actuated continuum robot prototype used for experiments:
-![Robot](media/IMG_20240518_163047.jpg)
+![Robot](media/robot_photo_1.jpg)
 
 Effector with different routing types:
 ![Effector](media/Effector.jpg)

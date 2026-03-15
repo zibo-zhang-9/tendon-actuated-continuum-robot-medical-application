@@ -25,26 +25,6 @@ The work focuses on physically-based modeling using Cosserat rod theory, reduced
 - Designed and built a **single-segment tendon-actuated continuum robot prototype platform** for experimental validation.
 - Performed **extensive experimental validation for multiple tendon routing paths (parallel, convergent, spiral)**.
 
-## Prototype Platform
-
-Single-segment tendon-actuated continuum robot prototype used for experiments:
-![Robot](media/robot_photo_1.jpg)
-
-Effector with different routing types:
-![Effector](media/Effector.jpg)
-
-All components of the prototype platform were designed and built during the first year of my PhD.
-
-## Demo Video
-
-A Demo GIF of the continuum robot prototype using spiral routing path and experiments:
-
-![demo](media/Deformation_Routage_Helicoidal.gif)
-
-For complete demonstration video, click the following link:
-
-[Watch the demo video](media/Experimental Demonstration of Deformation Behaviors of TACR.mp4)
-
 ## Mechanical Modeling
 
 The robot is modeled using Cosserat rod theory.  
@@ -68,6 +48,26 @@ The robot configuration is then obtained by integrating the Cosserat kinematics:
 $$
 g' = g(\xi_0 + B\epsilon)^\wedge
 $$
+
+## Prototype Platform
+
+Single-segment tendon-actuated continuum robot prototype used for experiments:
+![Robot](media/robot_photo_1.jpg)
+
+Effector with different routing types:
+![Effector](media/Effector.jpg)
+
+All components of the prototype platform were designed and built during the first year of my PhD.
+
+## Demo Video
+
+A Demo GIF of the continuum robot prototype using spiral routing path and experiments:
+
+![demo](media/Deformation_Routage_Helicoidal.gif)
+
+For complete demonstration video, click the following link:
+
+[Watch the demo video](media/Experimental Demonstration of Deformation Behaviors of TACR.mp4)
 
 ## Experimental Results
 

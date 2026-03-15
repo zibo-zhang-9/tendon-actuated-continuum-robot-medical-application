@@ -51,7 +51,7 @@ $$
 
 All components of the prototype platform were designed and built during the first year of my PhD.
 
-Example of CAD of Effector:
+Example of CAD of the Effector:
 ![Effector](media/Untitled3.png)
 
 Effector with different routing paths:

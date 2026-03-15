@@ -66,9 +66,7 @@ A Demo GIF of the continuum robot prototype using spiral routing path and experi
 
 ![demo](media/Deformation_Routage_Helicoidal.gif)
 
-For the full experimental demonstration video, click the following link:
-
-https://youtu.be/ANYyFetR3QI
+For the full experimental demonstration video, click the following link: https://youtu.be/ANYyFetR3QI
 
 ## Experimental Results
 

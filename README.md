@@ -58,7 +58,7 @@ Effector with different routing paths:
 ![Effector](media/Effector.jpg)
 
 Example of CAD of Effector:
-![Effector](media/Untitled3.jpg)
+![Effector](media/Untitled3.png)
 
 ## Demo Video
 

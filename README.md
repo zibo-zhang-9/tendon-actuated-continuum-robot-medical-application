@@ -49,13 +49,16 @@ $$
 
 ## Prototype Platform
 
+All components of the prototype platform were designed and built during the first year of my PhD.
+
 Single-segment tendon-actuated continuum robot prototype used for experiments:
 ![Robot](media/robot_photo_1.jpg)
 
-Effector with different routing types:
+Effector with different routing paths:
 ![Effector](media/Effector.jpg)
 
-All components of the prototype platform were designed and built during the first year of my PhD.
+Example of CAD of Effector:
+![Effector](media/Untitled3.jpg)
 
 ## Demo Video
 

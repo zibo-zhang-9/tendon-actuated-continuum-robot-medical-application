@@ -50,6 +50,8 @@ $$
 g' = g(\xi_0 + B\epsilon)^\wedge
 $$
 
+which is referred to as our shape prediction model. 
+
 ## Prototype Platform
 
 All components of the prototype platform were designed and built during the first year of my PhD.

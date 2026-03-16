@@ -59,7 +59,7 @@ All components of the prototype platform were designed and built during the firs
 Example of CAD of the Effector:
 ![Effector](media/Untitled3.png)
 
-Effector with different routing paths:
+Effector with different routing paths (parallel, convergent, and spiral):
 ![Effector](media/Effector.jpg)
 
 Single-segment tendon-actuated continuum robot prototype used for experiments:

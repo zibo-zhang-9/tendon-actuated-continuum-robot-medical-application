@@ -31,7 +31,7 @@ This repository presents part of my PhD research on tendon-actuated continuum ro
 The robot is modeled using Cosserat rod theory.  
 The backbone deformation is parameterized using strain fields and reduced using modal basis functions.
 
-The project involves:
+The mechanical modeling involves:
 
 - nonlinear Cosserat rod modeling
 - establishment of reduced Lagrangian formulation based on virtual work and Lagrangian mechanics

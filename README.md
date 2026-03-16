@@ -12,6 +12,9 @@ This project presents the modeling, shape prediction, and experimental validatio
 
 Continuum robots are promising for minimally invasive surgery and manipulation in constrained environments.  
 
+In such environments, continuous and accurate knowledge of the nonlinear TACR shape is essential to ensure safe guidance.Although this problem has been extensively investigated and several models have been proposed, there remains strong interest in developing
+a compact model enabling fast shape prediction.
+
 This repository presents part of my PhD research on tendon-actuated continuum robots, focusing on physically-based modeling using Cosserat rod theory, reduced-order actuation modeling, real-time shape prediction from tendon tension measurements, and experimental validation.
 
 ## Key Contributions

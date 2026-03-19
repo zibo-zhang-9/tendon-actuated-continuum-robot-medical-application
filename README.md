@@ -52,6 +52,8 @@ $$
 
 which is referred to as our shape prediction model. 
 
+$g(X) \in SE(3)$: pose (orientation + position) of the robot cross-section at arc-length $X$
+
 ## Prototype Platform
 
 All components of the prototype platform were designed and built during the first year of my PhD.

@@ -58,13 +58,13 @@ $g(X) \in SE(3)$: pose (orientation + position) of the robot cross-section at ar
 
 ## System Architecture
 
-The experimental platform integrates actuation, sensing, and control components:
+The experimental platform integrates actuation, sensing, control, and perception modules:
 
-- Galil motion controller for motor actuation
-- Tendon tension sensing via load cells (tension sensors)
-- Electromagnetic tracking using NDI Aurora
-- Visual validation using stereo camera
-- Real-time communication with MATLAB
+- Actuation: DC motors driven by a Galil motion controller
+- Proprioceptive sensing: tendon tension measurement via load cells and motor encoders
+- Exteroceptive sensing: electromagnetic pose tracking using the NDI Aurora system (6-DoF sensors + reference sensor)
+- Vision-based measurement: stereo camera for external shape validation and features extraction
+- Real-time control and data processing implemented in MATLAB
 
 The overall hardware architecture is illustrated below:
 
@@ -84,16 +84,15 @@ This enables stable and accurate control of the continuum robot.
 
 ## Sensor Setup
 
-The robot shape and end-effector pose are measured using:
+The robot end-effector pose are measured using: NDI Aurora electromagnetic tracking system (6-DoF), combining miniature sensors and a reference sensor to provide real-time pose estimation (position + orientation) of the robot end-effector
 
-- NDI Aurora electromagnetic tracking system (6-DoF) & disk reference sensor
-- Multiplexer and amplifier for multiple sensors
-- Real-time data acquisition via USB interface
-
-An exemple of connection of NDI Aurora electromagnetic tracking system (2 NDI sensors) :
+An exemple of connection of NDI Aurora electromagnetic tracking system :
 
 ![NDI_sensors](media/Aurora_plug_setup_2.png)
 
+This connection involves the use of multiplexer and amplifier for multiple sensors, and real-time data acquisition via USB interface
+
+Technical specifications of the sensors can be found in the datasheets provided in the `/docs` folder.
 
 ## Fabrication and assembly
 
@@ -112,15 +111,16 @@ Single-segment tendon-actuated continuum robot prototype used for experiments:
 
 ![Human-machine Interface](media/Human_Machine_Interface_GUI.png)
 
-A custom MATLAB-based GUI was developed for:
+A custom MATLAB-based graphical user interface (GUI) was developed to enable full system operation and experimental workflow:
 
-- Real-time robot control (displacement / tension control)
-- Sensor monitoring (Aurora, tension sensors, encoders)
-- Stereo camera connection
-- Data acquisition
-- Real-time 3D visualization of robot shape
+- System connection and status monitoring (motors, Aurora sensors, cameras, tension sensors)
+- Real-time control of tendon actuation (displacement and force control modes)
+- Online visualization of the robot 3D shape and simulation results
+- Real-time acquisition and display of multi-sensor data (Aurora pose, tendon tension, encoder feedback)
+- Integration with stereo vision system for external measurement and validation
+- Interactive simulation module based on Cosserat Rod based model and using physical parameters (e.g., Young's modulus E and shear modulus G)
 
-This interface enables intuitive interaction with the prototype platform.
+This interface provides a unified platform for control, sensing, simulation, and experimental validation.
 
 # Demo Video
 

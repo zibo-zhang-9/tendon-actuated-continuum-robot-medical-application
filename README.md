@@ -122,11 +122,17 @@ A custom MATLAB-based graphical user interface (GUI) was developed to enable ful
 
 This interface provides a unified platform for control, sensing, simulation, and experimental validation.
 
-# Demo Video
+# Demonstration Video
 
-A GIF of experimental demonstration of the continuum robot prototype using spiral routing path:
+Dynamic demonstration (.gif): 
+
+Continuum robot prototype using spiral routing path:
 
 ![demo](media/Deformation_Routage_Helicoidal.gif)
+
+Continuum robot prototype using parallel routing path:
+
+![demo](media/Deformation_Routage_Parallele.gif)
 
 For the full experimental demonstration video, click the following link: https://youtu.be/ANYyFetR3QI
 

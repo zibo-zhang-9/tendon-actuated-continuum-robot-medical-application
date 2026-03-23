@@ -68,7 +68,22 @@ The experimental platform integrates actuation, sensing, and control components:
 
 The overall hardware architecture is illustrated below:
 
-![Effector](media/Hardware_architecture_prototype_2.png)
+![Hardware Architecture](media/Hardware_architecture_prototype_2.png)
+
+## Control Framework
+
+A multi-loop control architecture is implemented:
+
+- Outer loop: shape / position control
+- Inner loop: tendon tension regulation
+- Motor-level PID control via Galil controller
+
+This enables stable and accurate control of the continuum robot.
+
+![Control_loop](media/control_loop_hardware_setup_2.png)
+
+
+## Fabrication
 
 All components of the prototype platform were designed and built during the first year of my PhD.
 

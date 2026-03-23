@@ -126,13 +126,13 @@ This interface provides a unified platform for control, sensing, simulation, and
 
 Dynamic demonstration (.gif): 
 
+Continuum robot prototype using parallel routing path:
+
+![demo](media/Deformation_Routage_Parallel.gif)
+
 Continuum robot prototype using spiral routing path:
 
 ![demo](media/Deformation_Routage_Helicoidal.gif)
-
-Continuum robot prototype using parallel routing path:
-
-![demo](media/Deformation_Routage_Parallele.gif)
 
 For the full experimental demonstration video, click the following link: https://youtu.be/ANYyFetR3QI
 

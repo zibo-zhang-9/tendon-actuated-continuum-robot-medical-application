@@ -75,9 +75,9 @@ A custom MATLAB-based GUI was developed for:
 
 - Real-time robot control (displacement / tension control)
 - Sensor monitoring (Aurora, tension sensors, encoders)
-- Data acquisition and logging
+- Stereo camera connection for visual validation
+- Data acquisition
 - Real-time 3D visualization of robot shape
-- Stereo camera integration for visual validation
 
 This interface enables intuitive interaction with the prototype platform.
 

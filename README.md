@@ -61,7 +61,7 @@ $g(X) \in SE(3)$: pose (orientation + position) of the robot cross-section at ar
 The experimental platform integrates actuation, sensing, and control components:
 
 - Galil motion controller for motor actuation
-- Tendon tension sensing via load cells
+- Tendon tension sensing via load cells (tension sensors)
 - Electromagnetic tracking using NDI Aurora
 - Visual validation using stereo camera
 - Real-time communication with MATLAB
@@ -116,7 +116,7 @@ A custom MATLAB-based GUI was developed for:
 
 - Real-time robot control (displacement / tension control)
 - Sensor monitoring (Aurora, tension sensors, encoders)
-- Stereo camera connection for visual validation
+- Stereo camera connection
 - Data acquisition
 - Real-time 3D visualization of robot shape
 
@@ -151,7 +151,7 @@ Potential applications include:
 
 **MATLAB**
 
-**Python**
+**Python (OpenCV)**
 
 **Computer vision**: stereo camera calibration, image segmentation
 

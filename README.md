@@ -8,7 +8,7 @@
 
 This project presents the modeling, shape prediction, and experimental validation of a tendon-actuated continuum robot developed during my PhD research.
 
-## Overview
+# Overview
 
 Continuum robots are promising for minimally invasive surgery and manipulation in constrained environments.  
 
@@ -17,7 +17,7 @@ a compact model enabling fast shape prediction.
 
 This repository presents part of my PhD research on tendon-actuated continuum robots, focusing on physically-based modeling using Cosserat rod theory, reduced-order actuation modeling, real-time shape prediction from tendon tension measurements, and experimental validation.
 
-## Key Contributions
+# Key Contributions
 
 - Developed a **3D nonlinear mechanical model of tendon-actuated continuum robots based on Cosserat rod theory**.
 - Proposed a **shape prediction framework using actuated strain modes (ASM)** that enables direct shape reconstruction from tendon tension measurements.
@@ -26,7 +26,7 @@ This repository presents part of my PhD research on tendon-actuated continuum ro
 - Designed and built a **single-segment tendon-actuated continuum robot prototype platform** for experimental validation.
 - Performed **extensive experimental validation for multiple tendon routing paths (parallel, convergent, spiral)**.
 
-## Mechanical Modeling
+# Mechanical Modeling
 
 The robot is modeled using Cosserat rod theory.  
 The backbone deformation is parameterized using strain fields and reduced using modal basis functions.
@@ -54,7 +54,21 @@ which is referred to as our shape prediction model.
 
 $g(X) \in SE(3)$: pose (orientation + position) of the robot cross-section at arc-length $X$
 
-## Prototype Platform
+# Prototype Platform
+
+## System Architecture
+
+The experimental platform integrates actuation, sensing, and control components:
+
+- Galil motion controller for motor actuation
+- Tendon tension sensing via load cells
+- Electromagnetic tracking using NDI Aurora
+- Visual validation using stereo camera
+- Real-time communication with MATLAB
+
+The overall hardware architecture is illustrated below:
+
+![Effector](media/Hardware_architecture_prototype_2.png)
 
 All components of the prototype platform were designed and built during the first year of my PhD.
 
@@ -81,7 +95,7 @@ A custom MATLAB-based GUI was developed for:
 
 This interface enables intuitive interaction with the prototype platform.
 
-## Demo Video
+# Demo Video
 
 A GIF of experimental demonstration of the continuum robot prototype using spiral routing path:
 
@@ -89,7 +103,7 @@ A GIF of experimental demonstration of the continuum robot prototype using spira
 
 For the full experimental demonstration video, click the following link: https://youtu.be/ANYyFetR3QI
 
-## Experimental Results
+# Experimental Results
 
 The proposed modeling and shape prediction method was experimentally validated on a continuum robot prototype with multiple tendon routing paths.
 
@@ -97,7 +111,7 @@ Example of shape prediction results:
 
 ![result](media/Cam_A_B_Para_Conv_Spiral_5_Configs.png)
 
-## Applications
+# Applications
 
 Potential applications include:
 
@@ -106,7 +120,7 @@ Potential applications include:
 - Flexible robotic manipulation
 - Aerospace inspection robots
 
-## Technologies Used
+# Technologies Used
 
 **MATLAB**
 
@@ -120,7 +134,7 @@ Potential applications include:
 
 **Experimental Validation**: tendon tension sensing (load cells), electromagnetic pose tracking (NDI Aurora System), cameras
 
-## Related Publications
+# Related Publications
 
 Z. Zhang, M. T. Chikhaoui, V. Lebastard, F. Boyer  
 **Shape Prediction of Tendon-Actuated Continuum Robot Using Standard Proprioception** 
@@ -130,7 +144,7 @@ Z. Zhang
 **Modeling, Shape Prediction, and Actuation Redundancy Elimination of Tendon-Actuated Continuum Robots**  
 PhD Thesis, IMT Atlantique (2026)
 
-## Contact
+# Contact
 
 Zibo Zhang  
 PhD in Robotics (IMT Atlantique / Université Grenoble Alpes)

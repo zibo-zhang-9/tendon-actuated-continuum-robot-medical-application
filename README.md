@@ -28,6 +28,14 @@ This repository presents part of my PhD research on tendon-actuated continuum ro
 
 # Mechanical Modeling
 
+Traditional robotic manipulators are typically composed of rigid links connected by discrete joints, enabling precise motion in structured environments. However, their inherent rigidity limits their ability to operate in confined or unstructured spaces.
+
+Continuum robots address these limitations by replacing discrete joints with continuously deformable structures, allowing smooth and highly flexible motion. This transition can be interpreted as an increase in kinematic redundancy: as the number of joints increases and their length decreases, the robot approaches a continuous backbone with theoretically infinite degrees of freedom.
+
+Inspired by biological structures such as octopus arms and elephant trunks, continuum robots exhibit superior compliance and dexterity, making them particularly suitable for applications such as minimally invasive surgery and navigation in constrained environments.
+
+To accurately model such continuous deformation, classical rigid-body kinematics is no longer sufficient. Instead, we adopt a geometrically exact Cosserat rod formulation to describe the robot as a continuous elastic body.
+
 The robot is modeled using Cosserat rod theory.  
 The backbone deformation is parameterized using strain fields and reduced using modal basis functions.
 

@@ -86,7 +86,7 @@ This enables stable and accurate control of the continuum robot.
 
 The robot end-effector pose are measured using: NDI Aurora electromagnetic tracking system (6-DoF), combining miniature sensors and a reference sensor to provide real-time pose estimation (position + orientation) of the robot end-effector
 
-An exemple of connection of NDI Aurora electromagnetic tracking system :
+An example of the NDI Aurora system setup:
 
 ![NDI_sensors](media/Aurora_plug_setup_2.png)
 

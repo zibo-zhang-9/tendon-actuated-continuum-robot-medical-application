@@ -36,8 +36,7 @@ Inspired by biological structures such as octopus arms and elephant trunks, cont
 
 To accurately model such continuous deformation, classical rigid-body kinematics is no longer sufficient. Instead, we adopt a geometrically exact Cosserat rod formulation to describe the robot as a continuous elastic body.
 
-The robot is modeled using Cosserat rod theory.  
-The backbone deformation is parameterized using strain fields and reduced using modal basis functions.
+In this model, the backbone deformation is parameterized using strain fields and reduced using modal basis functions.
 
 The mechanical modeling involves:
 

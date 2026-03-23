@@ -34,6 +34,8 @@ Continuum robots address these limitations by replacing discrete joints with con
 
 Inspired by biological structures such as octopus arms and elephant trunks, continuum robots exhibit superior compliance and dexterity, making them particularly suitable for applications such as minimally invasive surgery and navigation in constrained environments.
 
+![Robot](media/Comparaison_robot_rigid_links.png)
+
 To accurately model such continuous deformation, classical rigid-body kinematics is no longer sufficient. Instead, we adopt a geometrically exact Cosserat rod formulation to describe the robot as a continuous elastic body.
 
 In this model, the backbone deformation is parameterized using strain fields and reduced using modal basis functions.

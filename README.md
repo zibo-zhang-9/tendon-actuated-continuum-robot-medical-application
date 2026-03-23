@@ -17,6 +17,8 @@ a compact model enabling fast shape prediction.
 
 This repository presents part of my PhD research on tendon-actuated continuum robots, focusing on physically-based modeling using Cosserat rod theory, reduced-order actuation modeling, real-time shape prediction from tendon tension measurements, and experimental validation.
 
+---
+
 # Key Contributions
 
 - Developed a **3D nonlinear mechanical model of tendon-actuated continuum robots based on Cosserat rod theory**.
@@ -25,6 +27,8 @@ This repository presents part of my PhD research on tendon-actuated continuum ro
 - Developed an **SVD-based method for eliminating actuation redundancy** for tendon-actuated continuum robots.
 - Designed and built a **single-segment tendon-actuated continuum robot prototype platform** for experimental validation.
 - Performed **extensive experimental validation for multiple tendon routing paths (parallel, convergent, spiral)**.
+
+---
 
 # Mechanical Modeling
 
@@ -42,7 +46,7 @@ In this model, the backbone deformation is parameterized using strain fields and
 
 The mechanical modeling involves:
 
-- nonlinear Cosserat rod modeling
+- nonlinear Cosserat rod modeling based on differential geometry and Lie group representations (SE(3))
 - establishment of reduced Lagrangian formulation based on virtual work and Lagrangian mechanics
 - construction of strain modal basis adapted to tendon routing
 - fast shape prediction from tendon tension measurements by avoiding iterative shooting or Newton-Raphson solvers commonly used in Cosserat-rod models.
@@ -62,6 +66,8 @@ $$
 which is referred to as our shape prediction model. 
 
 $g(X) \in SE(3)$: pose (orientation + position) of the robot cross-section at arc-length $X$
+
+---
 
 # Prototype Platform
 
@@ -131,6 +137,8 @@ A custom MATLAB-based graphical user interface (GUI) was developed to enable ful
 
 This interface provides a unified platform for control, sensing, simulation, and experimental validation.
 
+---
+
 # Experimental Demonstration
 
 Dynamic demonstration (.gif): 
@@ -166,6 +174,8 @@ Potential applications include:
 - Flexible robotic manipulation
 - Aerospace inspection robots
 
+---
+
 # Technologies Used
 
 **MATLAB**
@@ -180,6 +190,8 @@ Potential applications include:
 
 **Experimental Validation**: tendon tension sensing (load cells), electromagnetic pose tracking (NDI Aurora System), cameras
 
+---
+
 # Related Publications
 
 Z. Zhang, M. T. Chikhaoui, V. Lebastard, F. Boyer  
@@ -189,6 +201,8 @@ IEEE Robotics and Automation Letters (under review)
 Z. Zhang  
 **Modeling, Shape Prediction, and Actuation Redundancy Elimination of Tendon-Actuated Continuum Robots**  
 PhD Thesis, IMT Atlantique (2026)
+
+---
 
 # Contact
 

@@ -67,6 +67,20 @@ Effector with different routing paths (parallel, convergent, and spiral):
 Single-segment tendon-actuated continuum robot prototype used for experiments:
 ![Robot](media/robot_photo_1.jpg)
 
+## Human-Machine Interface
+
+![Human-machine Interface](media/Human_Machine_Interface_GUI.png)
+
+A custom MATLAB-based GUI was developed for:
+
+- Real-time robot control (displacement / tension control)
+- Sensor monitoring (Aurora, tension sensors, encoders)
+- Data acquisition and logging
+- Real-time 3D visualization of robot shape
+- Stereo camera integration for visual validation
+
+This interface enables intuitive interaction with the robot system.
+
 ## Demo Video
 
 A GIF of experimental demonstration of the continuum robot prototype using spiral routing path:

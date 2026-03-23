@@ -71,6 +71,8 @@ $g(X) \in SE(3)$: pose (orientation + position) of the robot cross-section at ar
 
 # Prototype Platform
 
+The prototype platform was fully designed, implemented, and experimentally validated during my PhD research, covering mechanical design, embedded control, multi-sensor integration, and software development.
+
 ## System Architecture
 
 The experimental platform integrates actuation, sensing, control, and perception modules:
@@ -116,8 +118,6 @@ Example of CAD of the Effector:
 
 Effector with different routing paths (parallel, convergent, and spiral):
 ![Effector](media/Effector.jpg)
-
-This prototype was fully designed, implemented, and experimentally validated during my PhD research, covering mechanical design, embedded control, multi-sensor integration, and software development.
 
 Single-segment tendon-actuated continuum robot prototype used for experiments:
 ![Robot](media/robot_photo_1.jpg)

@@ -34,7 +34,7 @@ This repository presents part of my PhD research on tendon-actuated continuum ro
 
 Traditional robotic manipulators are typically composed of rigid links connected by discrete joints, enabling precise motion in structured environments. However, their inherent rigidity limits their ability to operate in confined or unstructured spaces.
 
-Continuum robots address these limitations by replacing discrete joints with continuously deformable structures, allowing smooth and highly flexible motion. This transition can be interpreted as an increase in kinematic redundancy (shown in the following figure): as the number of joints increases and both their length and size decrease, the robot approaches a continuous backbone with theoretically infinite degrees of freedom.
+Continuum robots address these limitations by replacing discrete joints with continuously deformable structures, allowing smooth and highly flexible motion. This transition can be interpreted as an increase in kinematic redundancy (shown in the following figure): as the number of joints increases and both their length and size decrease, the robot approaches a continuous backbone with theoretically infinite degrees of freedom [A].
 
 Inspired by biological structures such as octopus arms and elephant trunks, continuum robots exhibit superior compliance and dexterity, making them particularly suitable for applications such as minimally invasive surgery and navigation in constrained environments.
 
@@ -191,6 +191,12 @@ Potential applications include:
 **Prototyping and Fabrication**: 3D printing (IdeaMaker), mechanical assembly, and prototype integration
 
 **Experimental Validation**: tendon tension sensing (load cells), electromagnetic pose tracking (NDI Aurora System), cameras
+
+---
+
+# Reference
+
+[A] J. Burgner-Kahrs, D. C. Rucker, and H. Choset, “Continuum robots for medical applications: A survey,” IEEE Transactions on Robotics, vol. 31, no. 6, pp. 1261–1280, 2015.
 
 ---
 

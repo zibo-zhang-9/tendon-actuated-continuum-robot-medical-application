@@ -96,13 +96,13 @@ Technical specifications of the sensors can be found in the datasheets provided 
 
 ## Fabrication and assembly
 
-All components of the prototype platform were designed and built during the first year of my PhD.
-
 Example of CAD of the Effector:
 ![Effector](media/Untitled3.png)
 
 Effector with different routing paths (parallel, convergent, and spiral):
 ![Effector](media/Effector.jpg)
+
+This prototype was fully designed, implemented, and experimentally validated during my PhD research, covering mechanical design, embedded control, multi-sensor integration, and software development.
 
 Single-segment tendon-actuated continuum robot prototype used for experiments:
 ![Robot](media/robot_photo_1.jpg)

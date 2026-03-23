@@ -122,7 +122,7 @@ A custom MATLAB-based graphical user interface (GUI) was developed to enable ful
 
 This interface provides a unified platform for control, sensing, simulation, and experimental validation.
 
-# Demonstration Video
+# Experimental Demonstration
 
 Dynamic demonstration (.gif): 
 

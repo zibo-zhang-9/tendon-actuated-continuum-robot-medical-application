@@ -101,7 +101,7 @@ This enables stable and accurate control of the continuum robot.
 
 ## Sensor Setup
 
-Here, we exemplfy a sensor within all the sensors used in the prototype platform, if we exemplfy all sensors, that will make the read,e very long and boring
+As a representative example, we present the NDI Aurora electromagnetic tracking system used for real-time pose estimation.
 
 The pose (position + orientation) of the robot end-effector is measured using: NDI Aurora electromagnetic tracking system (6-DoF), combining miniature sensors and a reference sensor to provide real-time pose estimation of the robot end-effector
 
@@ -109,7 +109,7 @@ NDI Aurora system setup:
 
 ![NDI_sensors](media/Aurora_plug_setup_2.png)
 
-This connection involves the use of multiplexer and amplifier for multiple sensors, and real-time data acquisition via USB interface
+The system relies on a multiplexer and amplifier to handle multiple sensors, with real-time data acquisition via USB interface.
 
 Technical specifications of the sensors can be found in the datasheets provided in the `/docs` folder.
 

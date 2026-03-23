@@ -79,7 +79,7 @@ A custom MATLAB-based GUI was developed for:
 - Real-time 3D visualization of robot shape
 - Stereo camera integration for visual validation
 
-This interface enables intuitive interaction with the robot system.
+This interface enables intuitive interaction with the prototype platform.
 
 ## Demo Video
 

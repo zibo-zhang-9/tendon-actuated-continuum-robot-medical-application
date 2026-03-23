@@ -82,8 +82,20 @@ This enables stable and accurate control of the continuum robot.
 
 ![Control_loop](media/control_loop_hardware_setup_2.png)
 
+## Sensor Setup
 
-## Fabrication
+The robot shape and end-effector pose are measured using:
+
+- NDI Aurora electromagnetic tracking system (6-DoF) & disk reference sensor
+- Multiplexer and amplifier for multiple sensors
+- Real-time data acquisition via USB interface
+
+An exemple of connection of NDI Aurora electromagnetic tracking system (2 NDI sensors) :
+
+![NDI_sensors](media/Aurora_plug_setup_2.png)
+
+
+## Fabrication and assembly
 
 All components of the prototype platform were designed and built during the first year of my PhD.
 

@@ -80,7 +80,7 @@ The experimental platform integrates actuation, sensing, control, and perception
 - Actuation: DC motors driven by a Galil motion controller
 - Proprioceptive sensing: tendon tension measurement via load cells and motor encoders
 - Exteroceptive sensing: electromagnetic pose tracking using the NDI Aurora system (6-DoF sensors + reference sensor)
-- Vision-based measurement: stereo camera for external shape validation and features extraction
+- Vision-based measurement: stereo camera for external shape validation and feature extraction
 - Real-time control and data processing implemented in MATLAB
 
 The overall hardware architecture is illustrated below:
@@ -101,9 +101,11 @@ This enables stable and accurate control of the continuum robot.
 
 ## Sensor Setup
 
-The robot end-effector pose are measured using: NDI Aurora electromagnetic tracking system (6-DoF), combining miniature sensors and a reference sensor to provide real-time pose estimation (position + orientation) of the robot end-effector
+Here, we exemplfy a sensor within all the sensors used in the prototype platform, if we exemplfy all sensors, that will make the read,e very long and boring
 
-An example of the NDI Aurora system setup:
+The pose (position + orientation) of the robot end-effector is measured using: NDI Aurora electromagnetic tracking system (6-DoF), combining miniature sensors and a reference sensor to provide real-time pose estimation of the robot end-effector
+
+NDI Aurora system setup:
 
 ![NDI_sensors](media/Aurora_plug_setup_2.png)
 
@@ -133,7 +135,7 @@ A custom MATLAB-based graphical user interface (GUI) was developed to enable ful
 - Online visualization of the robot 3D shape and simulation results
 - Real-time acquisition and display of multi-sensor data (Aurora pose, tendon tension, encoder feedback)
 - Integration with stereo vision system for external measurement and validation
-- Interactive simulation module based on Cosserat Rod based model and using physical parameters (e.g., Young's modulus E and shear modulus G)
+- Interactive simulation module based on Cosserat Rod model and using physical parameters (e.g., Young's modulus E and shear modulus G)
 
 This interface provides a unified platform for control, sensing, simulation, and experimental validation.
 

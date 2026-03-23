@@ -130,6 +130,10 @@ Continuum robot prototype using parallel routing path:
 
 ![demo](media/Deformation_Routage_Parallel.gif)
 
+Continuum robot prototype using convergent routing path:
+
+![demo](media/Deformation_Routage_Convergent.gif)
+
 Continuum robot prototype using spiral routing path:
 
 ![demo](media/Deformation_Routage_Helicoidal.gif)

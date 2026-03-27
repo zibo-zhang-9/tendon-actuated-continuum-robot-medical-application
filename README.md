@@ -134,10 +134,9 @@ A full experimental prototype (single-segment tendon-actuated continuum robot) w
 - tendon-driven actuation system  
 - tension sensing (load cells)  
 - electromagnetic tracking (NDI Aurora)  
-- stereo vision system
+- stereo vision system (Camera A & B)
 - Effector
 - embedded control and data acquisition
-- etc...
 
 Final assembled prototype:
 
@@ -190,17 +189,15 @@ Example of shape prediction results:
 
 # Conclusion
 
-This project presents a complete pipeline for modeling, control, and experimental validation of tendon-actuated continuum robots.
+This project presents a complete work for modeling, control, and experimental validation of tendon-actuated continuum robots.
 
 A physically-based Cosserat rod model was developed and reduced using an actuation-adapted strain basis, enabling fast and direct shape prediction from tendon tension measurements.
 
-The proposed framework eliminates the need for iterative solvers typically required in Cosserat-based models, making it suitable for real-time applications.
+The proposed appraoch eliminates the need for iterative solvers (Newton-Raphson, shooting) typically required in Cosserat-based models, making it suitable for real-time applications.
 
-A dedicated experimental platform was designed and built to validate the approach, integrating actuation, multi-modal sensing, and real-time control.
+A dedicated experimental platform was designed and built to validate the proposed approach, integrating actuation, multi-modal sensing, and real-time control.
 
-Experimental results across multiple tendon routing configurations demonstrate the effectiveness, robustness, and generality of the proposed method.
-
-This work contributes toward bridging the gap between high-fidelity continuum robot modeling and real-time deployable systems.
+Experimental results across multiple tendon routing paths demonstrate the effectiveness, robustness, and generality of the proposed approach.
 
 ---
 

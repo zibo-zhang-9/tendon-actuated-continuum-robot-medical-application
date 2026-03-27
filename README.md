@@ -115,13 +115,32 @@ Technical specifications of the sensors can be found in the datasheets provided 
 
 ## Fabrication and assembly
 
+A **modular end-effector structure** was designed to support multiple tendon routing configurations:
+- parallel  
+- convergent  
+- spiral  
+CAD models in SolidWorks was developed, ensuring compatibility with sensing and actuation modules 
+
 Example of CAD of the Effector:
 ![Effector](media/Untitled3.png)
+
+Different tendon routing paths were implemented to evaluate the influence of actuation geometry on robot deformation behavior:
 
 Effector with different routing paths (parallel, convergent, and spiral):
 ![Effector](media/Effector.jpg)
 
-Single-segment tendon-actuated continuum robot prototype used for experiments integrating actuation, sensing, control, and perception modules is shown as follows:
+A full experimental prototype (single-segment tendon-actuated continuum robot) was assembled, integrating:
+
+- tendon-driven actuation system  
+- tension sensing (load cells)  
+- electromagnetic tracking (NDI Aurora)  
+- stereo vision system
+- Effector
+- embedded control and data acquisition
+- etc...
+
+Final assembled prototype:
+
 ![Robot](media/robot_photo_2.png)
 
 ## Human-Machine Interface
@@ -166,6 +185,24 @@ The proposed modeling and shape prediction method was experimentally validated o
 Example of shape prediction results:
 
 ![result](media/Cam_A_B_Para_Conv_Spiral_5_Configs.png)
+
+---
+
+# Conclusion
+
+This project presents a complete pipeline for modeling, control, and experimental validation of tendon-actuated continuum robots.
+
+A physically-based Cosserat rod model was developed and reduced using an actuation-adapted strain basis, enabling fast and direct shape prediction from tendon tension measurements.
+
+The proposed framework eliminates the need for iterative solvers typically required in Cosserat-based models, making it suitable for real-time applications.
+
+A dedicated experimental platform was designed and built to validate the approach, integrating actuation, multi-modal sensing, and real-time control.
+
+Experimental results across multiple tendon routing configurations demonstrate the effectiveness, robustness, and generality of the proposed method.
+
+This work contributes toward bridging the gap between high-fidelity continuum robot modeling and real-time deployable systems.
+
+---
 
 # Applications
 

@@ -121,7 +121,7 @@ Example of CAD of the Effector:
 Effector with different routing paths (parallel, convergent, and spiral):
 ![Effector](media/Effector.jpg)
 
-Single-segment tendon-actuated continuum robot prototype used for experiments:
+Single-segment tendon-actuated continuum robot prototype used for experiments integrating actuation, sensing, control, and perception modules is shown as follows:
 ![Robot](media/robot_photo_2.png)
 
 ## Human-Machine Interface

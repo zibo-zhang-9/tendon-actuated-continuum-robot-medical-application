@@ -195,7 +195,7 @@ A physically-based Cosserat rod model was developed and reduced using an actuati
 
 The proposed appraoch eliminates the need for iterative solvers (Newton-Raphson, shooting) typically required in Cosserat-based models, making it suitable for real-time applications.
 
-A dedicated experimental platform was designed and built to validate the proposed approach, integrating actuation, multi-modal sensing, and real-time control.
+A dedicated experimental platform was designed and built to validate the proposed approach, integrating actuation, multi-modal sensing, and real-time control. A system-level integration (mechanics + sensor + electronics + control) was implemented.
 
 Experimental results across multiple tendon routing paths demonstrate the effectiveness, robustness, and generality of the proposed approach.
 

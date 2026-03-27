@@ -122,7 +122,7 @@ Effector with different routing paths (parallel, convergent, and spiral):
 ![Effector](media/Effector.jpg)
 
 Single-segment tendon-actuated continuum robot prototype used for experiments:
-![Robot](media/robot_photo_1.jpg)
+![Robot](media/robot_photo_2.jpg)
 
 ## Human-Machine Interface
 

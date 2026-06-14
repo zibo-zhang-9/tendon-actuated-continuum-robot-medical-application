@@ -228,7 +228,7 @@ Potential applications include:
 
 ---
 
-# Reference
+# References
 
 [A] J. Burgner-Kahrs, D. C. Rucker, and H. Choset, “Continuum robots for medical applications: A survey,” IEEE Transactions on Robotics, vol. 31, no. 6, pp. 1261–1280, 2015.
 [B] F. Boyer, V. Lebastard, F. Candelier, and F. Renda, “Dynamics of continuum and soft robots: A strain parameterization based approach,” IEEE Transactions on Robotics, vol. 37, no. 3, pp. 847–863, 2021.
@@ -238,8 +238,8 @@ Potential applications include:
 # Related Publications
 
 Z. Zhang, M. T. Chikhaoui, V. Lebastard, F. Boyer  
-**Shape Prediction of Tendon-Actuated Continuum Robot Using Standard Proprioception** 
-IEEE Robotics and Automation Letters (under review)
+**Shape Prediction of Tendon-Actuated Continuum Robot Using Actuated Strain Modes** 
+IEEE Robotics and Automation Letters (in revision)
 
 Z. Zhang  
 **Modeling, Shape Prediction, and Actuation Redundancy Elimination of Tendon-Actuated Continuum Robots**  

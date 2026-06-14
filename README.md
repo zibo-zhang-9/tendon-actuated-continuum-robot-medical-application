@@ -40,7 +40,7 @@ Inspired by biological structures such as octopus arms and elephant trunks, cont
 
 ![Robot](media/Comparaison_robot_rigid_links.png)
 
-To accurately model such continuous deformation, classical rigid-body kinematics is no longer sufficient. Instead, we adopt a geometrically exact Cosserat rod formulation to describe the robot as a continuous elastic body.
+To accurately model such continuous deformation, classical rigid-body kinematics is no longer sufficient. Instead, we adopt a geometrically exact Cosserat rod formulation to describe the robot as a continuous elastic body [B].
 
 In this model, the backbone deformation is parameterized using strain fields and reduced using modal basis functions.
 
@@ -231,6 +231,7 @@ Potential applications include:
 # Reference
 
 [A] J. Burgner-Kahrs, D. C. Rucker, and H. Choset, “Continuum robots for medical applications: A survey,” IEEE Transactions on Robotics, vol. 31, no. 6, pp. 1261–1280, 2015.
+[B] F. Boyer, V. Lebastard, F. Candelier, and F. Renda, “Dynamics of continuum and soft robots: A strain parameterization based approach,” IEEE Transactions on Robotics, vol. 37, no. 3, pp. 847–863, 2021.
 
 ---
 
